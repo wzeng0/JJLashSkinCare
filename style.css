@@ -10,16 +10,17 @@
     background: #F2F2F2;
     height: 125px;
     display: flex;
-    justify-content: right;
+    /* justify-content:center; */
     align-items: center;
     font-size: .9rem; 
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 999;
+    padding: 25px;
 }
 
 .navbar__container {
-    display: flex;
+    display: relative;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -106,7 +107,7 @@
     background: #000000;
     background: linear-gradient(to right, #161616, #000000);
     padding: 200px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(Background.png); /* Check if want it dulled or not*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/images/Background.png); /* Check if want it dulled or not*/
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -120,14 +121,14 @@
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    height: 90%;
+    height: 100%;
     text-align: center;
-    padding: 30px;
+    padding: 60px;
 }
 
 .hero__heading {
     font-size: 50px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     color: #ffffff;
 }
 
@@ -193,7 +194,7 @@
 
 .main {
     background-color: #ffffff;
-    padding: 5rem 0;
+    padding: 10rem 0;
 }
 
 .main__container {
@@ -249,8 +250,8 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-/* The dots/bullets/indicators */
-.dot {
+/* The dots/bullets/indicators (not used as of now) */
+/* .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -259,7 +260,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
+} */
 
 .active, .dot:hover {
   background-color: #717171;
@@ -347,6 +348,29 @@
     color: #ffffff;
     text-decoration: none;
 }
+
+.main__review {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 50px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+footer {
+    text-align: left;
+    padding: 3px;
+    background-color: #ffffff;
+    color: #131313;
+    margin: 20px 20px 20px 20px;
+  }
 
 /* drop down menu for navbar */
 

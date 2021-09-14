@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JJ Lash & Skincare</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 <body>
     <!-- Navbar Section -->
@@ -21,25 +21,22 @@
                     <a href="#Home" class="navbar__links" id="home-page">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#Eyelash-Extensions" class="navbar__links" id="eyelashextension-page">Eyelash Extension</a>
+                    <a href="../pages/eyelash_extensions.html" class="navbar__links" id="eyelashextension-page">Eyelash Extension</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#Eyelash-Perm" class="navbar__links" id="eyelashperm-page">Eyelash Perm</a>
+                    <a href="../pages/eyelash_perm.html" class="navbar__links" id="eyelashperm-page">Eyelash Perm</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#Facials" class="navbar__links" id="facials-page">Facials</a>
+                    <a href="../pages/facials.html" class="navbar__links" id="facials-page">Facials</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#Microblading" class="navbar__links" id="microblading-page">Microblading</a>
+                    <a href="../pages/microblading.html" class="navbar__links" id="microblading-page">Microblading</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#Nails" class="navbar__links" id="nails-page">Nails</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#Contact" class="navbar__links" id="contact-page">Contact</a>
+                    <a href="../pages/nails.html" class="navbar__links" id="nails-page">Nails</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="#Make-An-Appointment" class="button" id="makeanappointment-page">Make An Appointment</a>
+                    <a href="../pages/contact.html" class="button" id="contact-page">Contact</a>
                 </li>
             </ul>
         </div>
@@ -53,29 +50,32 @@
             <a href="#explore" class="hero__btn">Explore</a></button>
         </div>
     </div>
-
+    
     <!-- About Section -->
+    <a id ="explore"></a>
     <div class="main" id="about">
-        <a id ="explore"></a>
         <div class="main__container">
+            <!-- Slideshow Section -->
             <div class="main__slideshow-container">
+                <!-- Pictures for Slideshow -->
                 <div class="main__mySlides fade">
-                    <img src="S1.jpeg" style="width:100%" width="400" height="500">
+                    <img src="../images/S1.jpeg" style="width:100%" width="400" height="500">
                   </div>
                 
                   <div class="main__mySlides fade">
-                    <img src="S2.jpeg" style="width:100%" width="400" height="500">
+                    <img src="../images/S2.jpeg" style="width:100%" width="400" height="500">
                   </div>
                 
                   <div class="main__mySlides fade">
-                    <img src="S3.jpeg" style="width:100%" width="400" height="500">
+                    <img src="../images/S3.jpeg" style="width:100%" width="400" height="500">
                   </div>
                 
-                  <!-- Next and previous buttons -->
+                  <!-- Next and previous buttons for slideshow -->
                   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                   <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
 
+                <!-- Catchphrase -->
                 <div class="main__content">
                     <h1>What do we do?</h1>
                     <h2>We help you live your best life</h2>
@@ -83,15 +83,23 @@
                     <button class="main__btn"><a href="#">Schedule an Appointment</a></button>
                 </div>
                 
-                <!-- The dots/circles -->
-                <div style="text-align:center">
+                <!-- The dots/circles for slideshow (not needed for now will see later)-->
+                <!-- <div style="text-align:center">
                   <span class="dot" onclick="currentSlide(1)"></span>
                   <span class="dot" onclick="currentSlide(2)"></span>
-                  <span class="dot" onclick="currentSlide(3)"></span></div>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+                <br> -->
+                <div class="main__review">
+                    <h2>Contact Us/Leave a Review</h2>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="/app.js"></script>
 </body>
+<footer>
+	<p>Copyright &copy; J&S Skincare</p>
+</footer>
 </html>
